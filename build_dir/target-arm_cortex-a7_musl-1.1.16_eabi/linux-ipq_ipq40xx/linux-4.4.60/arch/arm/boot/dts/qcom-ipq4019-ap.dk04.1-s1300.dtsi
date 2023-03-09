@@ -422,15 +422,15 @@
 
 			wifi {
 				label = "wifi_led";
-				gpios = <&tlmm 60 GPIO_ACTIVE_HIGH>;
+				gpios = <&tlmm 32 GPIO_ACTIVE_LOW>;
 			};
 			mesh {
 				label = "mesh_led";
-				gpios = <&tlmm 59 GPIO_ACTIVE_HIGH>;
+				gpios = <&tlmm 50 GPIO_ACTIVE_LOW>;
 			};
 			power {
 				label = "power_led";
-				gpios = <&tlmm 57 GPIO_ACTIVE_HIGH>;
+				gpios = <&tlmm 40 GPIO_ACTIVE_LOW>;
 				default-state = "on";
 			};
 		};
