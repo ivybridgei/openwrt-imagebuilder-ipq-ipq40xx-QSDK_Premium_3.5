@@ -146,7 +146,7 @@
 			button@2 {
 				label = "reset";
 				linux,code = <KEY_RESTART>;
-				gpios = <&tlmm 63 GPIO_ACTIVE_LOW>;
+				gpios = <&tlmm 18 GPIO_ACTIVE_LOW>;
 				linux,input-type = <1>;
 			};
 		};
@@ -164,15 +164,15 @@
 
 			wifi {
 				label = "wifi_led";
-				gpios = <&tlmm 2 GPIO_ACTIVE_HIGH>;
+				gpios = <&tlmm 32 GPIO_ACTIVE_LOW>;
 			};
 			mesh {
 				label = "mesh_led";
-				gpios = <&tlmm 3 GPIO_ACTIVE_HIGH>;
+				gpios = <&tlmm 50 GPIO_ACTIVE_LOW>;
 			};
 			power {
 				label = "power_led";
-				gpios = <&tlmm 4 GPIO_ACTIVE_HIGH>;
+				gpios = <&tlmm 40 GPIO_ACTIVE_LOW>;
 				default-state = "on";
 			};
 		};
