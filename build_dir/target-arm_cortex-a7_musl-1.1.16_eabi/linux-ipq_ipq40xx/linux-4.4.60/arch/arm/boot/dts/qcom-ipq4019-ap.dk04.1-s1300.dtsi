@@ -422,11 +422,11 @@
 
 			wifi {
 				label = "wifi_led";
-				gpios = <&tlmm 32 GPIO_ACTIVE_LOW>;
+				gpios = <&tlmm 50 GPIO_ACTIVE_LOW>;
 			};
 			mesh {
 				label = "mesh_led";
-				gpios = <&tlmm 50 GPIO_ACTIVE_LOW>;
+				gpios = <&tlmm 36 GPIO_ACTIVE_LOW>;
 			};
 			power {
 				label = "power_led";
